@@ -108,11 +108,11 @@ jupyter notebook
 
 ## 👩‍💻 **Team Members (GitHub Usernames)**
 
-* **@Sociopath345**
-* **@Ketty-97**
-* **@MiSaungWadiZan**
-* **@MyatHninSunn**
-* **@PhooMonMyint**
+* **[Sociopath345](https://github.com/Sociopath345)**
+* **[Ketty-97](https://github.com/Ketty-97)**
+* **[Ketty-97](https://github.com/Ketty-97)**
+* **[Ketty-97](https://github.com/Ketty-97)**
+* **[Phoo-MM](https://github.com/Phoo-MM)**
 
 ---
 
