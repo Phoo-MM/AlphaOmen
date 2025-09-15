@@ -24,7 +24,7 @@
 * **Database:** MySQL (XAMPP)
 * **Server:** Apache Tomcat 10
 * **Version Control:** Git & GitHub
-* **ML / Autocorrect:** Python + Jupyter Notebook
+* **Autocorrect:** Python + Jupyter Notebook
 
 ---
 
@@ -33,9 +33,9 @@
 ```
 /src           – Java source files
 /webapp        – JSP, CSS, JS
-/database      – SQL scripts
 /autocorrect   – Python + Jupyter Notebook files for text auto-correct
 README.md      – Project overview
+.sql           – For database
 ```
 
 ---
@@ -57,21 +57,23 @@ git clone https://github.com/<your-repo-link>.git
 
 ### 3️⃣ **Project Placement**
 
-Place both the **AlphaOmen** project folder and the **autocorrect** folder inside the **same Eclipse workspace**:
+First, place the **src** folder and **pom.xml** inside a folder named **MyProject**.
+
+Place both the **MyProject** project folder and the **Autocorrect** folder inside the **same Eclipse workspace**:
 
 ```
 eclipse-workspace/
- ├─ AlphaOmen/
- └─ autocorrect/
+ ├─ MyProject/
+ └─ Autocorrect/
 ```
 
 ### 4️⃣ **Run Jupyter Notebook (Autocorrect)**
 
 1. Open CMD / Terminal
-2. Navigate to the `autocorrect` folder:
+2. Navigate to the `Autocorrect` folder:
 
 ```bash
-cd path\to\eclipse-workspace\autocorrect
+cd path\to\eclipse-workspace\Autocorrect
 ```
 
 3. Start Jupyter Notebook:
@@ -86,12 +88,12 @@ jupyter notebook
 
 > ⚠️ **Important:** Always start the Jupyter Notebook **before** running the Eclipse project.
 
-### 5️⃣ **Run Eclipse Project (AlphaOmen)**
+### 5️⃣ **Run Eclipse Project**
 
-* Import the **AlphaOmen Maven project** into Eclipse
+* Import the **MyProject** folder into Eclipse
 * Configure Tomcat Server (v10.0)
-* Import the SQL file into MySQL (via phpMyAdmin or MySQL Workbench)
-* Run the project at `http://localhost:8081/AlphaOmen`
+* Import the SQL file into MySQL and named it **alldb** (via phpMyAdmin or MySQL Workbench)
+* Run the project at `http://localhost:8081/MyProject`
 
 ---
 
