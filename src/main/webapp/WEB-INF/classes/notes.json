@@ -1,0 +1,425 @@
+{
+  "intents": [
+    {
+      "intent": "signup_login",
+      "patterns": [
+        "how do I sign up",
+        "how to register",
+        "create account",
+        "how do I log in",
+        "log into my account",
+        "where is the login button"
+      ],
+      "responses": [
+        "To use the website, you need to register for an account. If you already have one, log in with your details."
+      ]
+    },
+    {
+      "intent": "write_note",
+      "patterns": [
+        "how to write a note",
+        "create note",
+        "new note",
+        "make a sticky note",
+        "add a note",
+        "record a note"
+      ],
+      "responses": [
+        "To write a note, go to the dashboard and click 'New Note'. You can type your text or record your voice."
+      ]
+    },
+    {
+      "intent": "edit",
+      "patterns": [
+        "how to edit a note",
+        "change a note",
+        "update note",
+        "fix note",
+        "edit notes"
+      ],
+      "responses": [
+        "You can edit a note by opening it and clicking 'Edit'."
+      ]
+    },
+    {
+      "intent": "delete",
+      "patterns": [
+        "how do I delete a note",
+        "remove note",
+        "erase note",
+        "delete notes"
+      ],
+      "responses": [
+        "To delete, select the note and click 'Delete'."
+      ]
+    },
+    {
+      "intent": "organize_notes",
+      "patterns": [
+        "how to organize my notes",
+        "pin note",
+        "move note",
+        "drag and drop notes",
+        "rearrange notes",
+        "keep notes at the top",
+        "sort my notes"
+      ],
+      "responses": [
+        "You can pin notes to keep them at the top, move them to fixed sections, or drag & drop to rearrange."
+      ]
+    },
+    {
+      "intent": "search_filter",
+      "patterns": [
+        "how do I search notes",
+        "find my notes",
+        "look for note",
+        "filter notes",
+        "can I search notes"
+      ],
+      "responses": [
+        "Use the search bar to find notes quickly. You can also apply filters to organize your notes."
+      ]
+    },
+    {
+      "intent": "import_export",
+      "patterns": [
+        "how to import notes",
+        "upload notes",
+        "transfer notes",
+        "can I export my notes",
+        "download notes",
+        "save notes as file",
+        "export notes to pdf"
+      ],
+      "responses": [
+        "You can import notes from files or export them. Just choose the file type (PDF, TXT, etc.) and save."
+      ]
+    },
+    {
+      "intent": "reminders",
+      "patterns": [
+        "can I add reminders",
+        "get notification",
+        "alert me",
+        "set deadline for note",
+        "schedule reminder"
+      ],
+      "responses": [
+        "You can set a reminder for your notes. The system will notify you at the chosen time."
+      ]
+    },
+    {
+      "intent": "mood_tracker",
+      "patterns": [
+        "what is mood tracker",
+        "track my mood",
+        "report mood",
+        "log today’s mood",
+        "can I record my feelings"
+      ],
+      "responses": [
+        "You can report your mood daily, and the system will track it for your personal insights."
+      ]
+    },
+    {
+      "intent": "chatbot",
+      "patterns": [
+        "chatbot help",
+        "AI assistant",
+        "ask the bot",
+        "how does chatbot work",
+        "help me chatbot"
+      ],
+      "responses": [
+        "You can chat with the AI chatbot for quick help and guidance on using the website."
+      ]
+    },
+    {
+      "intent": "pro_version",
+      "patterns": [
+        "what is the pro version",
+        "tell me about premium",
+        "upgrade account",
+        "what do I get with pro",
+        "benefits of pro version",
+        "difference between free and pro",
+        "how to pay for pro",
+        "pro version payment",
+        "transaction id for pro",
+        "where to enter transaction id",
+        "submit payment proof",
+        "enter transaction number",
+        "how long for admin to approve",
+        "admin approval",
+        "when will I get pro access",
+        "who approves my payment"
+      ],
+      "responses": [
+        "Free users have limited notes and access to basic features. With the Pro version, you get unlimited notes, advanced tools, and priority support.",
+        "To upgrade, you need to purchase the Pro subscription and submit your transaction ID.",
+        "After you provide the transaction ID, the admin will review and approve your Pro access."
+      ]
+    },
+    {
+      "intent": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! Need help with something?",
+        "Hey! What would you like to do?"
+      ]
+    },
+    {
+      "intent": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "talk to you soon"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later!",
+        "Bye! Come back anytime you need help."
+      ]
+    },
+    {
+      "intent": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "appreciate it",
+        "thx"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help 😊",
+        "Anytime!"
+      ]
+    },
+    {
+      "intent": "small_talk",
+      "patterns": [
+        "how are you",
+        "what's up",
+        "how's it going"
+      ],
+      "responses": [
+        "I'm doing great, thanks for asking! How about you?",
+        "I'm here and ready to help you with your notes!",
+        "All good on my side. What can I do for you?"
+      ]
+    },
+    {
+      "intent": "password_change",
+      "patterns": [
+        "forgot password",
+        "reset password",
+        "how to change password"
+      ],
+      "responses": [
+        "If you forgot your password, click 'Forgot Password' on the login page to reset it.",
+        "You can change your password in your account settings under 'Security'."
+      ]
+    },
+    {
+      "intent": "about_us",
+      "patterns": [
+        "website information",
+        "the goals",
+        "missions",
+        "objectives",
+        "alpha omen"
+      ],
+      "responses": [
+        "Our mission is to help users organize their notes, track moods, and stay productive.",
+        "Alpha Omen is designed to combine note-taking, reminders, and personal insights in one platform."
+      ]
+    },
+    {
+      "intent": "categories",
+      "patterns": [
+        "what to do with categories",
+        "what is categories",
+        "the benefit of categories"
+      ],
+      "responses": [
+        "Categories help you organize notes by topics or projects.",
+        "Using categories makes it easier to find, filter, and manage related notes."
+      ]
+    },
+    {
+      "intent": "calculator",
+      "patterns": [
+        "how to do calculations",
+        "a calculator",
+        "what is a calculator"
+      ],
+      "responses": [
+        "You can use the built-in calculator without leaving the app. Just click the calculator button in the sidebar."
+      ]
+    },
+    {
+      "intent": "edit_username",
+      "patterns": [
+        "how to edit username",
+        "username",
+        "user profile"
+      ],
+      "responses": [
+        "To edit your username, click your profile in the top right corner, then update your username as you like."
+      ]
+    },
+    {
+      "intent": "jokes",
+      "patterns": [
+        "tell me a joke",
+        "make me laugh",
+        "funny joke"
+      ],
+      "responses": [
+        "Why don’t skeletons fight each other? Because they don’t have the guts 😂",
+        "I tried to catch some fog yesterday... Mist!"
+      ]
+    },
+    {
+      "intent": "weather",
+      "patterns": [
+        "what's the weather",
+        "is it raining",
+        "how's the weather today"
+      ],
+      "responses": [
+        "I can't fetch live weather right now, but you can check your local forecast 🌤️",
+        "The weather depends on where you are. Did you want me to guess? 😉"
+      ]
+    },
+    {
+      "intent": "compliments",
+      "patterns": [
+        "you are smart",
+        "nice bot",
+        "you are helpful",
+        "good job"
+      ],
+      "responses": [
+        "Aww, thank you! 😊",
+        "Glad I could help!",
+        "You're awesome too!"
+      ]
+    },
+    {
+      "intent": "fun_fact",
+      "patterns": [
+        "tell me something interesting",
+        "fun fact",
+        "did you know"
+      ],
+      "responses": [
+        "Did you know honey never spoils? Archaeologists found pots of honey in ancient tombs that are still edible!",
+        "Here’s a fun fact: Bananas are berries, but strawberries are not 🍓🍌"
+      ]
+    },
+    {
+      "intent": "quiz_game",
+      "patterns": [
+        "play a quiz",
+        "give me a quiz",
+        "ask me a question",
+        "quiz time"
+      ],
+      "responses": [
+        "Sure! Here’s a quiz: What is the capital of France?",
+        "Alright, quiz time! Who developed the theory of relativity?"
+      ]
+    },
+    {
+      "intent": "quiz_answer",
+      "patterns": [
+        "the answer is paris",
+        "einstein",
+        "it's france capital",
+        "the answer is"
+      ],
+      "responses": [
+        "Correct! 🎉 Great job.",
+        "Nice try! That’s the right answer.",
+        "Oops, not quite right. Want another question?"
+      ]
+    },
+    {
+      "intent": "riddle_game",
+      "patterns": [
+        "tell me a riddle",
+        "ask me a riddle",
+        "give me a puzzle",
+        "riddle time"
+      ],
+      "responses": [
+        "Here’s a riddle: What has to be broken before you can use it? 🥚",
+        "Try this one: The more you take, the more you leave behind. What am I?"
+      ]
+    },
+    {
+      "intent": "trivia_game",
+      "patterns": [
+        "play trivia",
+        "trivia question",
+        "ask me trivia",
+        "trivia game"
+      ],
+      "responses": [
+        "Trivia time! 🌍 Which planet is known as the Red Planet?",
+        "Here’s a trivia question: Who painted the Mona Lisa?"
+      ]
+    },
+    {
+      "intent": "number_guess",
+      "patterns": [
+        "play number game",
+        "guess a number",
+        "number guessing game",
+        "pick a number"
+      ],
+      "responses": [
+        "Okay! I’m thinking of a number between 1 and 10. Can you guess it?",
+        "Let’s play! Guess the number I’m thinking of between 1 and 20."
+      ]
+    },
+    {
+      "intent": "motivational_quote",
+      "patterns": [
+        "give me motivation",
+        "inspire me",
+        "say something positive",
+        "motivate me"
+      ],
+      "responses": [
+        "Believe in yourself! You’re stronger than you think 💪",
+        "Every day is a chance to get better. Keep going 🚀",
+        "Success comes to those who never give up ✨"
+      ]
+    },
+    {
+      "intent": "daily_tip",
+      "patterns": [
+        "give me a tip",
+        "daily advice",
+        "productivity tip",
+        "study tip"
+      ],
+      "responses": [
+        "Tip: Break your tasks into smaller chunks. It makes them easier to finish!",
+        "Remember to take short breaks while studying to refresh your mind.",
+        "Stay consistent. Even 1% progress every day adds up over time."
+      ]
+    }
+  ]
+}

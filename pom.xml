@@ -1,0 +1,130 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+  <groupId>2</groupId>
+  <artifactId>MyProject</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <dependencies>
+  
+  		<!-- Jakarta Servlet API -->
+		<dependency>
+			<groupId>jakarta.servlet</groupId>
+			<artifactId>jakarta.servlet-api</artifactId>
+			<version>6.0.0</version>
+    		<scope>provided</scope>
+    	</dependency>
+    	
+    	<!--   Jakarta JSTL API   -->
+    	<dependency>
+			<groupId>jakarta.servlet.jsp.jstl</groupId>
+			<artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		
+		<!--   Jakarta JSTL -->
+		<dependency>
+			<groupId>org.glassfish.web</groupId>
+			<artifactId>jakarta.servlet.jsp.jstl</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+
+		<!--   MySQL JDBC Connector   -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.33</version>
+		</dependency>
+		
+		<!-- Jakarta Mail -->
+		<dependency>
+		    <groupId>com.sun.mail</groupId>
+		    <artifactId>jakarta.mail</artifactId>
+		    <version>2.0.1</version>
+		</dependency>
+		
+		<!-- Gson -->
+		<dependency>
+		    <groupId>com.google.code.gson</groupId>
+		    <artifactId>gson</artifactId>
+		    <version>2.10.1</version> <!-- latest stable -->
+		</dependency>
+		
+		<!-- JSON-simple -->
+		<dependency>
+		    <groupId>com.googlecode.json-simple</groupId>
+		    <artifactId>json-simple</artifactId>
+		    <version>1.1.1</version>
+		</dependency>
+		
+		<!-- Apache Commons Text -->
+		<dependency>
+		    <groupId>org.apache.commons</groupId>
+		    <artifactId>commons-text</artifactId>
+		    <version>1.10.0</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.json</groupId>
+		    <artifactId>json</artifactId>
+		    <version>20230618</version>
+		</dependency>
+
+
+
+<!--   Spring dependencies   -->
+<dependency>
+<groupId>org.springframework</groupId>
+<artifactId>spring-beans</artifactId>
+<version>6.0.0</version>
+</dependency>
+<dependency>
+<groupId>org.springframework</groupId>
+<artifactId>spring-context</artifactId>
+<version>6.0.0</version>
+</dependency>
+<dependency>
+<groupId>org.springframework</groupId>
+<artifactId>spring-webmvc</artifactId>
+<version>6.0.0</version>
+</dependency>
+<!--   Tomcat Jasper (JSP) dependency   -->
+<dependency>
+<groupId>org.apache.tomcat</groupId>
+<artifactId>tomcat-jasper</artifactId>
+<version>10.0.27</version>
+<!--   Use the version compatible with your Tomcat version   -->
+</dependency>
+<!--   Tomcat Servlet API dependency for Tomcat 10   -->
+<dependency>
+<groupId>org.apache.tomcat</groupId>
+<artifactId>tomcat-servlet-api</artifactId>
+<version>10.0.10</version>
+</dependency>
+
+
+<!--   Spring JDBC   -->
+<dependency>
+<groupId>org.springframework</groupId>
+<artifactId>spring-jdbc</artifactId>
+<version>6.0.0</version>
+</dependency>
+<!--   WebJar for Bootstrap   -->
+<dependency>
+<groupId>org.webjars</groupId>
+<artifactId>bootstrap</artifactId>
+<version>5.3.0</version>
+</dependency>
+<!--   JUnit for testing   -->
+<dependency>
+<groupId>junit</groupId>
+<artifactId>junit</artifactId>
+<version>4.11</version>
+<scope>test</scope>
+</dependency>
+
+    </dependencies>
+
+
+</project>
