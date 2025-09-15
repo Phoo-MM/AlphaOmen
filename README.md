@@ -33,4 +33,51 @@
 - Python 3.10+ with Jupyter Notebook installed
 
 2️⃣ Clone Repository
+```
 git clone https://github.com/<your-repo-link>.git
+```
+
+3️⃣ Project Placement
+- Place both the AlphaOmen project folder and the autocorrect folder inside the same Eclipse workspace:
+```
+eclipse-workspace/
+ ├─ AlphaOmen/
+ └─ autocorrect/
+```
+
+4️⃣ Run Jupyter Notebook (Autocorrect)
+- Open CMD/Terminal
+- Navigate to the autocorrect folder:
+```
+cd path\to\eclipse-workspace\autocorrect
+```
+- Start Jupyter Notebook
+```
+jupyter notebook
+```
+- Your browser will open the Jupyter interface.
+- Open the ```.ipynb``` file and Run All Cells/ Run Kernel.
+- Leave it running in the background.
+
+5️⃣ Run Eclipse Project (AlphaOmen)
+- Import the AlphaOmen Maven project into Eclipse.
+- Configure Tomcat Server (v10.0).
+- Import the SQL file into MySQL (via phpMyAdmin or MySQL Workbench).
+- Run the project on localhost:8081.
+```
+⚠️ Important: Always start the Jupyter Notebook before running the Eclipse project.
+```
+
+# 📈Future Enhancements
+- Mobile app version
+- Speech-to-text for voice notes
+- Real-time collaboration
+- AI-powered note summarization
+
+# 👩‍💻Team Members
+@Sociopath345
+@Ketty-97
+
+```
+Note: This repository contains the code and resources for the Alpha Omen project developed as part of our coursework.
+```
