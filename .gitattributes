@@ -1,0 +1,17 @@
+# Java source files
+*.java linguist-language=Java
+
+# JSP files
+*.jsp linguist-language=HTML
+
+# Python Jupyter Notebook files
+*.ipynb linguist-language=Python
+
+# CSS files
+*.css linguist-language=CSS
+
+# JavaScript files
+*.js linguist-language=JavaScript
+
+# JSON files
+*.json linguist-language=JSON
